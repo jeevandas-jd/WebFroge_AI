@@ -5,5 +5,5 @@ from django.urls import path
 from  .views import getGemini
 
 urlpatterns=[
-	path("/getGemini",getGemini,name="getGemini")
+	path("getGemini/",getGemini,name="getGemini")
 	]
